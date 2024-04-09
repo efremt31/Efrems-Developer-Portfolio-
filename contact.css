@@ -1,0 +1,131 @@
+body {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+    to right,
+
+    rgb(7, 160, 160) 10%,
+    rgb(28, 98, 163) 75%,
+    rgb(6, 123, 219) 100%,
+    rgb(64, 32, 246) 10%
+  );
+  color: white;
+}
+
+/* Nav & Header */
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  border-style: solid;
+  border-width: 5px;
+  border-image: linear-gradient(45deg, rgb(0, 143, 104), rgb(250, 224, 66)) 40;
+}
+
+h2 {
+  font-family: "Permanent Marker", cursive;
+  font-size: 3rem;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  padding-left: 10px;
+}
+
+.nav-item a {
+  font-family: mitr;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-link {
+  color: white;
+}
+a:hover {
+  color: rgb(11, 10, 10) !important;
+}
+
+.nav-item a {
+  font-family: mitr;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+form {
+  margin-top: 60px;
+  border: solid yellowgreen 10px;
+  width: 500px;
+  border-radius: 10px;
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+.form-field {
+  display: flex;
+  width: 460px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+input {
+  border-radius: 10px;
+  border: white solid 2px;
+}
+
+textarea {
+  width: 700px;
+  height: 150px;
+  border-radius: 10px;
+  border: 0;
+  margin-top: 20px;
+}
+
+.form-two {
+  display: flex;
+  width: 250px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.form-two #email-address {
+  width: 240px;
+  margin-top: 20px;
+}
+
+.form-two #full-name {
+  width: 240px;
+  margin-top: 20px;
+}
+
+.submit-button {
+  width: 200px;
+  background-color: rgb(46, 131, 168);
+  font-weight: bolder;
+  border: solid white 2px;
+  color: white;
+  border-radius: 10px;
+  height: 40px;
+}
+
+.submit-button:hover {
+  background-color: yellowgreen;
+}
