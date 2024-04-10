@@ -130,7 +130,7 @@ textarea {
   background-color: yellowgreen;
 }
 
-@media all and (max-width: 650px) {
+@media (max-width: 650px) {
   body {
     width: 100vw;
   }
