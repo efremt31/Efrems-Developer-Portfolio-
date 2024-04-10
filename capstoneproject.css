@@ -160,3 +160,41 @@ h1 {
     justify-content: center;
   }
 }
+
+@media (max-width: 412px) {
+  body {
+    width: 100vw;
+  }
+
+  .header-container {
+    width: 380px;
+  }
+
+  .container-md {
+    display: flex;
+    justify-content: center;
+  }
+
+  h2 {
+    margin-left: 2px;
+  }
+}
+
+@media (max-width: 390px) {
+  body {
+    width: 100vw;
+  }
+
+  .header-container {
+    width: 380px;
+  }
+
+  .container-md {
+    display: flex;
+    justify-content: center;
+  }
+
+  h2 {
+    margin-left: 5px;
+  }
+}
