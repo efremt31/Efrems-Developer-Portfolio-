@@ -179,10 +179,6 @@ h1 {
     width: 100vw;
   }
 
-  .header-container {
-    width: 380px;
-  }
-
   .container-md {
     display: flex;
     justify-content: center;
@@ -199,7 +195,7 @@ h1 {
   }
 
   .header-container {
-    width: 380px;
+    width: 390px;
   }
 
   .container-md {
@@ -208,6 +204,6 @@ h1 {
   }
 
   h2 {
-    margin-left: 5px;
+    margin-left: 2px;
   }
 }
