@@ -21,6 +21,11 @@
       rel="stylesheet"
     />
     <title>Contact Me</title>
+    <link
+    rel="icon"
+    type="images/jpeg"
+    href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCI_GiKMLRwp-tI9CKyLlr_MCM3VgAv_dxUg&usqp=CAU"
+  />
   </head>
   <body>
      <!--Nav-->
@@ -56,15 +61,26 @@
     >
     <div class="form-two">
       <fieldset id="fs-frm-inputs">
-        <label for="full-name">Full Name</label>
+        <label for="first-name">First Name</label>
         <input
           type="text"
           name="name"
-          id="full-name"
-          placeholder="First and Last"
+          id="first-name"
+          placeholder="First Name"
           required=""
         />
     </div>
+    <div class="form-two">
+        <fieldset id="fs-frm-inputs">
+          <label for="last-name">Last Name</label>
+          <input
+            type="text"
+            name="name"
+            id="last-name"
+            placeholder="Last Name"
+            required=""
+          />
+      </div>
     <div class="form-two">
         <label for="email-address">Email Address</label>
         <input
@@ -82,7 +98,7 @@
           
           name="message"
           id="message"
-          placeholder=""
+          placeholder="Enter message here"
           required=""
         ></textarea>
         <input
