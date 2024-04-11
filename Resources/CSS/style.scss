@@ -166,12 +166,13 @@ button:hover {
     width: 100vw;
     height: 100vh;
   }
+
   .me-container {
     margin: auto;
     display: flex;
     width: 370px;
     height: 200px;
-    padding-top: 20px;
+    padding-top: 40px;
     flex-wrap: wrap;
   }
   .d-grid {
@@ -181,7 +182,7 @@ button:hover {
   }
 
   .box {
-    margin-top: 70px;
+    margin-top: 50px;
     margin-right: 20px;
     height: 200px;
   }
@@ -190,7 +191,7 @@ button:hover {
     height: 150px;
   }
   h2 {
-    margin-left: 10px;
+    margin-left: 2px;
   }
 
   @media (max-width: 375px) {
