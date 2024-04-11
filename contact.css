@@ -21,6 +21,7 @@ body {
   border-style: solid;
   border-width: 5px;
   border-image: linear-gradient(45deg, rgb(0, 143, 104), rgb(250, 224, 66)) 40;
+  width: 100vw;
 }
 
 h2 {
@@ -138,6 +139,7 @@ textarea {
   .header-container {
     display: flex;
     padding-left: 10px;
+    width: 100vw;
   }
 
   .form-container {
