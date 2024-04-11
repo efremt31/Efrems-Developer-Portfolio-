@@ -164,40 +164,20 @@ h1 {
   background-color: yellowgreen !important;
 }
 
-@media (max-width: 932px) {
+@media (max-width: 912px) {
   body {
     width: 100vw;
-    height: 100vh;
   }
 
   .container-md {
     display: flex;
     justify-content: center;
-  }
-}
-
-@media (max-width: 428px) {
-  body {
-    width: 100vw;
-    height: 100vh;
-  }
-
-  .container-md {
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
-    padding: 50px;
-  }
-
-  h2 {
-    margin-left: 2px;
   }
 }
 
 @media (max-width: 412px) {
   body {
     width: 100vw;
-    height: 100vh;
   }
 
   .container-md {
@@ -213,13 +193,11 @@ h1 {
 @media (max-width: 390px) {
   body {
     width: 100vw;
-    height: 100vh;
   }
 
   .container-md {
     display: flex;
     justify-content: center;
-    justify-content: space-between;
   }
 
   h2 {

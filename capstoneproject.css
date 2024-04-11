@@ -183,10 +183,6 @@ h1 {
     width: 100vw;
   }
 
-  .header-container {
-    width: 100vw;
-  }
-
   .container-md {
     display: flex;
     justify-content: center;
